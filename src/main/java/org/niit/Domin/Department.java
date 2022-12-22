@@ -19,4 +19,28 @@ public class Department {
         this.deptId = deptId;
         this.deptRole = deptRole;
     }
+
+    public String getDeptName() {
+        return deptName;
+    }
+
+    public void setDeptName(String deptName) {
+        this.deptName = deptName;
+    }
+
+    public String getDeptId() {
+        return deptId;
+    }
+
+    public void setDeptId(String deptId) {
+        this.deptId = deptId;
+    }
+
+    public String getDeptRole() {
+        return deptRole;
+    }
+
+    public void setDeptRole(String deptRole) {
+        this.deptRole = deptRole;
+    }
 }
