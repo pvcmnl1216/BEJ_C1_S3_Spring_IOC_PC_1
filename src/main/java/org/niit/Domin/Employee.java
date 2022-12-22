@@ -5,19 +5,27 @@
  */
 package org.niit.Domin;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+
 public class Employee {
 
     private String empName;
     private String empAddress;
     private String empId;
 
+    @Autowired
+    @Qualifier("dept1")
+    private Department department;
+
     public Employee() {
     }
 
-    public Employee(String empName, String empAddress, String empId) {
+    public Employee(String empName, String empAddress, String empId, Department department) {
         this.empName = empName;
         this.empAddress = empAddress;
         this.empId = empId;
+        this.department = department;
     }
 
     public String getEmpName() {
@@ -44,12 +52,21 @@ public class Employee {
         this.empId = empId;
     }
 
+    public Department getDepartment() {
+        return department;
+    }
+
+    public void setDepartment(Department department) {
+        this.department = department;
+    }
+
     @Override
     public String toString() {
         return "Employee{" +
                 "empName='" + empName + '\'' +
                 ", empAddress='" + empAddress + '\'' +
                 ", empId='" + empId + '\'' +
+                ", department=" + department +
                 '}';
     }
 }
