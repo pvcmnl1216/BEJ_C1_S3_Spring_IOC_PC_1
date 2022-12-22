@@ -43,4 +43,13 @@ public class Department {
     public void setDeptRole(String deptRole) {
         this.deptRole = deptRole;
     }
+
+    @Override
+    public String toString() {
+        return "Department{" +
+                "deptName='" + deptName + '\'' +
+                ", deptId='" + deptId + '\'' +
+                ", deptRole='" + deptRole + '\'' +
+                '}';
+    }
 }
