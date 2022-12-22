@@ -6,4 +6,10 @@
 package org.niit.Domin;
 
 public class Employee {
+
+    private String empName;
+    private String empAddress;
+    private String empId;
+
+
 }
