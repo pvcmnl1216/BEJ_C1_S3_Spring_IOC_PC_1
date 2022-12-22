@@ -6,4 +6,10 @@
 package org.niit.Domin;
 
 public class Department {
+
+    private String deptName;
+    private String deptId;
+    private String deptRole;
+
+
 }

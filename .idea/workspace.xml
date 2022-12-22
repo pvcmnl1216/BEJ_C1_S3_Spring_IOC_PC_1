@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ee7266f-49e3-4659-a37f-aabbbcfc65c1" name="Changes" comment="Employee.java added in the domin package">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/niit/Domin/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/niit/Domin/Employee.java" afterDir="false" />
+    <list default="true" id="8ee7266f-49e3-4659-a37f-aabbbcfc65c1" name="Changes" comment="created the Department.java in the domin package">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/niit/Domin/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/niit/Domin/Department.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,13 +75,53 @@
       <option name="project" value="LOCAL" />
       <updated>1671685745672</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Attributes are added in the Employee.java">
+      <created>1671686095108</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671686095108</updated>
+    </task>
+    <task id="LOCAL-00005" summary="in th Employee.java contructers are created">
+      <created>1671686142685</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671686142685</updated>
+    </task>
+    <task id="LOCAL-00006" summary="created the getter and setter methods in the Employee.java">
+      <created>1671686202753</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1671686202753</updated>
+    </task>
+    <task id="LOCAL-00007" summary="created the tostring method in the Employee.java">
+      <created>1671686246772</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671686246772</updated>
+    </task>
+    <task id="LOCAL-00008" summary="created the Department.java in the domin package">
+      <created>1671686312517</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671686312517</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="Spring framework Dependency added" />
     <MESSAGE value="Employee.java added in the domin package" />
-    <option name="LAST_COMMIT_MESSAGE" value="Employee.java added in the domin package" />
+    <MESSAGE value="Attributes are added in the Employee.java" />
+    <MESSAGE value="in th Employee.java contructers are created" />
+    <MESSAGE value="created the getter and setter methods in the Employee.java" />
+    <MESSAGE value="created the tostring method in the Employee.java" />
+    <MESSAGE value="created the Department.java in the domin package" />
+    <option name="LAST_COMMIT_MESSAGE" value="created the Department.java in the domin package" />
   </component>
 </project>
